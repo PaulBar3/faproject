@@ -1,9 +1,14 @@
 [project]
 name = "faproject"
 version = "0.1.0"
-description = "Add your description here"
+description = "Асинхронное TODO API на FastAPI + SQLAlchemy + PostgreSQL"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "fastapi>=0.135.0",
+    "pydantic-settings>=2.7.0",
+    "sqlalchemy[asyncio]>=2.0.47",
+    "asyncpg>=0.30.0",
+    "uvicorn[standard]>=0.41.0",
+    "httpx>=0.28.1",
 ]
